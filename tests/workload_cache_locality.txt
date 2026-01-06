@@ -1,0 +1,10 @@
+init memory 4096
+config cache 128 256
+access 1024
+access 1024
+access 2048
+access 1024
+access 3000
+access 4000
+access 1024
+stats

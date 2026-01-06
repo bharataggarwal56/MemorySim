@@ -1,0 +1,20 @@
+Memory Management Simulator
+> Memory initialized. Default strategy: First Fit
+> Allocator strategy set.
+> Allocated block id=1 at address=0x0000
+> Allocated block id=2 at address=0x00C8
+> Allocated block id=3 at address=0x0190
+> Block 2 freed
+> Allocated block id=4 at address=0x00C8
+> [0x0000 - 0x00C7] USED (id=1)
+[0x00C8 - 0x00F9] USED (id=4)
+[0x00FA - 0x018F] FREE
+[0x0190 - 0x0257] USED (id=3)
+[0x0258 - 0x03E7] FREE
+> Total memory: 1000
+Used memory: 450
+External fragmentation: 27.2727%
+Internal fragmentation: 0%
+Allocation success: 4
+Allocation failures: 0
+> 
